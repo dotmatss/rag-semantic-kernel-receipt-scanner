@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "+F9rmkRaErU=",
-  "success": false,
+  "dgSpecHash": "y7jNSCs12j8=",
+  "success": true,
   "projectFilePath": "C:\\Users\\Matss\\VSCodeProjects\\dotNetProjects\\receiptAI\\src\\ReceiptAI.Api\\ReceiptAI.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Matss\\.nuget\\packages\\azure.ai.openai\\2.9.0-beta.1\\azure.ai.openai.2.9.0-beta.1.nupkg.sha512",
@@ -59,7 +59,7 @@
     "C:\\Users\\Matss\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\8.0.11\\npgsql.entityframeworkcore.postgresql.8.0.11.nupkg.sha512",
     "C:\\Users\\Matss\\.nuget\\packages\\openai\\2.10.0\\openai.2.10.0.nupkg.sha512",
     "C:\\Users\\Matss\\.nuget\\packages\\pgvector\\0.3.2\\pgvector.0.3.2.nupkg.sha512",
-    "C:\\Users\\Matss\\.nuget\\packages\\pgvector.entityframeworkcore\\0.3.0\\pgvector.entityframeworkcore.0.3.0.nupkg.sha512",
+    "C:\\Users\\Matss\\.nuget\\packages\\pgvector.entityframeworkcore\\0.2.2\\pgvector.entityframeworkcore.0.2.2.nupkg.sha512",
     "C:\\Users\\Matss\\.nuget\\packages\\swashbuckle.aspnetcore\\6.6.2\\swashbuckle.aspnetcore.6.6.2.nupkg.sha512",
     "C:\\Users\\Matss\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.6.2\\swashbuckle.aspnetcore.swagger.6.6.2.nupkg.sha512",
     "C:\\Users\\Matss\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.6.2\\swashbuckle.aspnetcore.swaggergen.6.6.2.nupkg.sha512",
@@ -87,15 +87,5 @@
     "C:\\Users\\Matss\\.nuget\\packages\\system.text.json\\10.0.6\\system.text.json.10.0.6.nupkg.sha512",
     "C:\\Users\\Matss\\.nuget\\packages\\system.threading.channels\\10.0.6\\system.threading.channels.10.0.6.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1605",
-      "level": "Error",
-      "message": "Warning As Error: Detected package downgrade: Npgsql.EntityFrameworkCore.PostgreSQL from 9.0.1 to 8.0.11. Reference the package directly from the project to select a different version. \r\n ReceiptAI.Api -> ReceiptAI.Infrastructure -> Pgvector.EntityFrameworkCore 0.3.0 -> Npgsql.EntityFrameworkCore.PostgreSQL (>= 9.0.1) \r\n ReceiptAI.Api -> ReceiptAI.Infrastructure -> Npgsql.EntityFrameworkCore.PostgreSQL (>= 8.0.11)",
-      "libraryId": "Npgsql.EntityFrameworkCore.PostgreSQL",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    }
-  ]
+  "logs": []
 }

@@ -10,10 +10,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("receiptai-api")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("ReceiptAI.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cb3b1fd9f67a0744c409c297cc76943773f68300")]
 [assembly: System.Reflection.AssemblyProductAttribute("ReceiptAI.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ReceiptAI.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

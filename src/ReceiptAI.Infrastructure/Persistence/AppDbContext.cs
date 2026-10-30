@@ -1,5 +1,6 @@
 using System;
 using Microsoft.EntityFrameworkCore;
+using ReceiptAI.Domain.Entities;
 
 namespace ReceiptAI.Infrastructure.Persistence;
 
@@ -10,6 +11,10 @@ public class AppDbContext : DbContext
         : base(options)
     {
     }
+
+    public DbSet<User> Users => Set<User>();
+
+    public DbSet<RefreshToken> RefreshTokens => Set<RefreshToken>();
 
     public DbSet<DocumentRecord> Documents => Set<DocumentRecord>();
 

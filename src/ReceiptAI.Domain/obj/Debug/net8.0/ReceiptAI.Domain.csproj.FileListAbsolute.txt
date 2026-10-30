@@ -1,0 +1,12 @@
+C:\Users\Matss\VSCodeProjects\dotNetProjects\receiptAI\src\ReceiptAI.Domain\bin\Debug\net8.0\ReceiptAI.Domain.deps.json
+C:\Users\Matss\VSCodeProjects\dotNetProjects\receiptAI\src\ReceiptAI.Domain\bin\Debug\net8.0\ReceiptAI.Domain.dll
+C:\Users\Matss\VSCodeProjects\dotNetProjects\receiptAI\src\ReceiptAI.Domain\bin\Debug\net8.0\ReceiptAI.Domain.pdb
+C:\Users\Matss\VSCodeProjects\dotNetProjects\receiptAI\src\ReceiptAI.Domain\obj\Debug\net8.0\ReceiptAI.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Matss\VSCodeProjects\dotNetProjects\receiptAI\src\ReceiptAI.Domain\obj\Debug\net8.0\ReceiptAI.Domain.AssemblyInfoInputs.cache
+C:\Users\Matss\VSCodeProjects\dotNetProjects\receiptAI\src\ReceiptAI.Domain\obj\Debug\net8.0\ReceiptAI.Domain.AssemblyInfo.cs
+C:\Users\Matss\VSCodeProjects\dotNetProjects\receiptAI\src\ReceiptAI.Domain\obj\Debug\net8.0\ReceiptAI.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Matss\VSCodeProjects\dotNetProjects\receiptAI\src\ReceiptAI.Domain\obj\Debug\net8.0\ReceiptAI.Domain.sourcelink.json
+C:\Users\Matss\VSCodeProjects\dotNetProjects\receiptAI\src\ReceiptAI.Domain\obj\Debug\net8.0\ReceiptAI.Domain.dll
+C:\Users\Matss\VSCodeProjects\dotNetProjects\receiptAI\src\ReceiptAI.Domain\obj\Debug\net8.0\refint\ReceiptAI.Domain.dll
+C:\Users\Matss\VSCodeProjects\dotNetProjects\receiptAI\src\ReceiptAI.Domain\obj\Debug\net8.0\ReceiptAI.Domain.pdb
+C:\Users\Matss\VSCodeProjects\dotNetProjects\receiptAI\src\ReceiptAI.Domain\obj\Debug\net8.0\ref\ReceiptAI.Domain.dll

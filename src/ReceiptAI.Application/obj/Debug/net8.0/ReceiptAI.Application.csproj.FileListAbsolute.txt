@@ -1,0 +1,16 @@
+C:\Users\Matss\VSCodeProjects\dotNetProjects\receiptAI\src\ReceiptAI.Application\bin\Debug\net8.0\ReceiptAI.Application.deps.json
+C:\Users\Matss\VSCodeProjects\dotNetProjects\receiptAI\src\ReceiptAI.Application\bin\Debug\net8.0\ReceiptAI.Application.dll
+C:\Users\Matss\VSCodeProjects\dotNetProjects\receiptAI\src\ReceiptAI.Application\bin\Debug\net8.0\ReceiptAI.Application.pdb
+C:\Users\Matss\VSCodeProjects\dotNetProjects\receiptAI\src\ReceiptAI.Application\bin\Debug\net8.0\ReceiptAI.Domain.dll
+C:\Users\Matss\VSCodeProjects\dotNetProjects\receiptAI\src\ReceiptAI.Application\bin\Debug\net8.0\ReceiptAI.Domain.pdb
+C:\Users\Matss\VSCodeProjects\dotNetProjects\receiptAI\src\ReceiptAI.Application\obj\Debug\net8.0\ReceiptAI.Application.csproj.AssemblyReference.cache
+C:\Users\Matss\VSCodeProjects\dotNetProjects\receiptAI\src\ReceiptAI.Application\obj\Debug\net8.0\ReceiptAI.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Matss\VSCodeProjects\dotNetProjects\receiptAI\src\ReceiptAI.Application\obj\Debug\net8.0\ReceiptAI.Application.AssemblyInfoInputs.cache
+C:\Users\Matss\VSCodeProjects\dotNetProjects\receiptAI\src\ReceiptAI.Application\obj\Debug\net8.0\ReceiptAI.Application.AssemblyInfo.cs
+C:\Users\Matss\VSCodeProjects\dotNetProjects\receiptAI\src\ReceiptAI.Application\obj\Debug\net8.0\ReceiptAI.Application.csproj.CoreCompileInputs.cache
+C:\Users\Matss\VSCodeProjects\dotNetProjects\receiptAI\src\ReceiptAI.Application\obj\Debug\net8.0\ReceiptAI.Application.sourcelink.json
+C:\Users\Matss\VSCodeProjects\dotNetProjects\receiptAI\src\ReceiptAI.Application\obj\Debug\net8.0\ReceiptA.890C68E6.Up2Date
+C:\Users\Matss\VSCodeProjects\dotNetProjects\receiptAI\src\ReceiptAI.Application\obj\Debug\net8.0\ReceiptAI.Application.dll
+C:\Users\Matss\VSCodeProjects\dotNetProjects\receiptAI\src\ReceiptAI.Application\obj\Debug\net8.0\refint\ReceiptAI.Application.dll
+C:\Users\Matss\VSCodeProjects\dotNetProjects\receiptAI\src\ReceiptAI.Application\obj\Debug\net8.0\ReceiptAI.Application.pdb
+C:\Users\Matss\VSCodeProjects\dotNetProjects\receiptAI\src\ReceiptAI.Application\obj\Debug\net8.0\ref\ReceiptAI.Application.dll
