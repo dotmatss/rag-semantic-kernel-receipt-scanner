@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "vJOeRks2HRrhH7mANutaJMqehOw5uqUqSp8vuA1TdNI=",
+  "Source": "ReceiptAI.Api",
+  "BasePath": "_content/ReceiptAI.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

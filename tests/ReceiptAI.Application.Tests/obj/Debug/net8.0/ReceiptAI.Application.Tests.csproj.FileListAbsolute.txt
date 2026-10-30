@@ -113,3 +113,7 @@ C:\Users\Matss\VSCodeProjects\dotNetProjects\receiptAI\tests\ReceiptAI.Applicati
 C:\Users\Matss\VSCodeProjects\dotNetProjects\receiptAI\tests\ReceiptAI.Application.Tests\obj\Debug\net8.0\ReceiptAI.Application.Tests.pdb
 C:\Users\Matss\VSCodeProjects\dotNetProjects\receiptAI\tests\ReceiptAI.Application.Tests\obj\Debug\net8.0\ReceiptAI.Application.Tests.genruntimeconfig.cache
 C:\Users\Matss\VSCodeProjects\dotNetProjects\receiptAI\tests\ReceiptAI.Application.Tests\obj\Debug\net8.0\ref\ReceiptAI.Application.Tests.dll
+C:\Users\Matss\VSCodeProjects\dotNetProjects\receiptAI\tests\ReceiptAI.Application.Tests\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Matss\VSCodeProjects\dotNetProjects\receiptAI\tests\ReceiptAI.Application.Tests\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\Users\Matss\VSCodeProjects\dotNetProjects\receiptAI\tests\ReceiptAI.Application.Tests\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\Matss\VSCodeProjects\dotNetProjects\receiptAI\tests\ReceiptAI.Application.Tests\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll

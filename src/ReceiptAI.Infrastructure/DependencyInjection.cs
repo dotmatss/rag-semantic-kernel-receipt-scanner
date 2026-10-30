@@ -1,6 +1,9 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
+using ReceiptAI.Application;
+using ReceiptAI.Application.Common.Interfaces.Auth;
 using ReceiptAI.Application.Common.Interfaces.Persistence;
+using ReceiptAI.Infrastructure.Auth;
 using ReceiptAI.Infrastructure.Persistence;
 using ReceiptAI.Infrastructure.Persistence.Repositories;
 
@@ -16,6 +19,8 @@ public static class DependencyInjection
 
         services.AddScoped<IUserRepository, UserRepository>();
         services.AddScoped<IRefreshTokenRepository, RefreshTokenRepository>();
+        services.AddScoped<IJwtService, JwtService>();
+        services.AddSingleton<IPasswordHasher, BcryptPasswordHasher>();
 
         return services;
     }

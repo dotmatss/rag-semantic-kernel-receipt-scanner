@@ -17,6 +17,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{BD18EE82
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReceiptAI.Application.Tests", "tests\ReceiptAI.Application.Tests\ReceiptAI.Application.Tests.csproj", "{2C99E046-DE55-4557-A17A-B930C52245A5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReceiptAI.Infrastructure.Tests", "tests\ReceiptAI.Infrastructure.Tests\ReceiptAI.Infrastructure.Tests.csproj", "{6BFEBC73-7CDE-4054-9D49-4CF1BB490D72}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -46,6 +48,10 @@ Global
 		{2C99E046-DE55-4557-A17A-B930C52245A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2C99E046-DE55-4557-A17A-B930C52245A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2C99E046-DE55-4557-A17A-B930C52245A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BFEBC73-7CDE-4054-9D49-4CF1BB490D72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BFEBC73-7CDE-4054-9D49-4CF1BB490D72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BFEBC73-7CDE-4054-9D49-4CF1BB490D72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BFEBC73-7CDE-4054-9D49-4CF1BB490D72}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{E19B8CAA-FACE-43ED-915A-8F2534232BB0} = {9A4F945E-0F21-4E74-8EBD-D950A131D2A8}
@@ -53,5 +59,6 @@ Global
 		{E1F6A781-38F3-4A2E-AE3C-720598199CC5} = {9A4F945E-0F21-4E74-8EBD-D950A131D2A8}
 		{0E4D77C9-B889-4134-BB24-B839757419EC} = {9A4F945E-0F21-4E74-8EBD-D950A131D2A8}
 		{2C99E046-DE55-4557-A17A-B930C52245A5} = {BD18EE82-2083-4D44-AB9D-54850847C226}
+		{6BFEBC73-7CDE-4054-9D49-4CF1BB490D72} = {BD18EE82-2083-4D44-AB9D-54850847C226}
 	EndGlobalSection
 EndGlobal

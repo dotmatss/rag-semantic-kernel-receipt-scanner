@@ -13,6 +13,8 @@ public class RefreshToken : BaseEntity
 
     public DateTime? RevokedAt { get; private set; }
 
+    public string? ReplacedByTokenHash { get; private set; }
+
     public bool IsActive => RevokedAt is null && DateTime.UtcNow < ExpiresAt;
 
     private RefreshToken()

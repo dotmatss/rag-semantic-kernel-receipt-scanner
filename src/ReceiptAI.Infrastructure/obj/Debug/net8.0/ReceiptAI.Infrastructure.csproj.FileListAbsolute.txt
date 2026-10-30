@@ -5,3 +5,17 @@ C:\Users\Matss\VSCodeProjects\dotNetProjects\receiptAI\src\ReceiptAI.Infrastruct
 C:\Users\Matss\VSCodeProjects\dotNetProjects\receiptAI\src\ReceiptAI.Infrastructure\obj\Debug\net8.0\ReceiptAI.Infrastructure.csproj.CoreCompileInputs.cache
 C:\Users\Matss\VSCodeProjects\dotNetProjects\receiptAI\src\ReceiptAI.Infrastructure\obj\Debug\net8.0\EFCoreNpgsqlPgvector.cs
 C:\Users\Matss\VSCodeProjects\dotNetProjects\receiptAI\src\ReceiptAI.Infrastructure\obj\Debug\net8.0\ReceiptAI.Infrastructure.sourcelink.json
+C:\Users\Matss\VSCodeProjects\dotNetProjects\receiptAI\src\ReceiptAI.Infrastructure\bin\Debug\net8.0\ReceiptAI.Infrastructure.deps.json
+C:\Users\Matss\VSCodeProjects\dotNetProjects\receiptAI\src\ReceiptAI.Infrastructure\bin\Debug\net8.0\ReceiptAI.Infrastructure.runtimeconfig.json
+C:\Users\Matss\VSCodeProjects\dotNetProjects\receiptAI\src\ReceiptAI.Infrastructure\bin\Debug\net8.0\ReceiptAI.Infrastructure.dll
+C:\Users\Matss\VSCodeProjects\dotNetProjects\receiptAI\src\ReceiptAI.Infrastructure\bin\Debug\net8.0\ReceiptAI.Infrastructure.pdb
+C:\Users\Matss\VSCodeProjects\dotNetProjects\receiptAI\src\ReceiptAI.Infrastructure\bin\Debug\net8.0\ReceiptAI.Application.dll
+C:\Users\Matss\VSCodeProjects\dotNetProjects\receiptAI\src\ReceiptAI.Infrastructure\bin\Debug\net8.0\ReceiptAI.Domain.dll
+C:\Users\Matss\VSCodeProjects\dotNetProjects\receiptAI\src\ReceiptAI.Infrastructure\bin\Debug\net8.0\ReceiptAI.Application.pdb
+C:\Users\Matss\VSCodeProjects\dotNetProjects\receiptAI\src\ReceiptAI.Infrastructure\bin\Debug\net8.0\ReceiptAI.Domain.pdb
+C:\Users\Matss\VSCodeProjects\dotNetProjects\receiptAI\src\ReceiptAI.Infrastructure\obj\Debug\net8.0\ReceiptA.AD7599FE.Up2Date
+C:\Users\Matss\VSCodeProjects\dotNetProjects\receiptAI\src\ReceiptAI.Infrastructure\obj\Debug\net8.0\ReceiptAI.Infrastructure.dll
+C:\Users\Matss\VSCodeProjects\dotNetProjects\receiptAI\src\ReceiptAI.Infrastructure\obj\Debug\net8.0\refint\ReceiptAI.Infrastructure.dll
+C:\Users\Matss\VSCodeProjects\dotNetProjects\receiptAI\src\ReceiptAI.Infrastructure\obj\Debug\net8.0\ReceiptAI.Infrastructure.pdb
+C:\Users\Matss\VSCodeProjects\dotNetProjects\receiptAI\src\ReceiptAI.Infrastructure\obj\Debug\net8.0\ReceiptAI.Infrastructure.genruntimeconfig.cache
+C:\Users\Matss\VSCodeProjects\dotNetProjects\receiptAI\src\ReceiptAI.Infrastructure\obj\Debug\net8.0\ref\ReceiptAI.Infrastructure.dll

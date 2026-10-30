@@ -1,55 +1,28 @@
-using System.IdentityModel.Tokens.Jwt;
-using System.Text;
-using Microsoft.AspNetCore.Authentication.JwtBearer;
-using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
-using ReceiptAI.Api.Auth;
-using ReceiptAI.Application.Auth;
-using ReceiptAI.Domain.Enums;
+using ReceiptAI.Api.Extensions;
+using ReceiptAI.Api.Middlewares;
+using ReceiptAI.Api.Services;
+using ReceiptAI.Application;
+using ReceiptAI.Application.Common.Interfaces;
 using ReceiptAI.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
 
-var jwtSection = builder.Configuration.GetSection(JwtOptions.SectionName);
-var jwt = jwtSection.Get<JwtOptions>() ?? new JwtOptions();
-if (Encoding.UTF8.GetByteCount(jwt.Key) < 32)
-    throw new InvalidOperationException(
-        "Jwt:Key must be at least 32 bytes. Set it with: dotnet user-secrets set \"Jwt:Key\" \"<random secret>\"");
-
 var connectionString = builder.Configuration.GetConnectionString("Default")
     ?? throw new InvalidOperationException("ConnectionStrings:Default is not configured.");
 
-builder.Services.Configure<JwtOptions>(jwtSection);
+builder.Services.AddApplication();
 builder.Services.AddInfrastructure(connectionString);
-builder.Services.AddSingleton<IJwtTokenGenerator, JwtTokenGenerator>();
-builder.Services.AddScoped<AuthService>();
+builder.Services.AddJwtAuthentication(builder.Configuration);
+builder.Services.AddAppAuthorization();
+builder.Services.AddHttpContextAccessor();
+builder.Services.AddScoped<ICurrentUser, CurrentUser>();
 
-builder.Services
-    .AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
-    .AddJwtBearer(options =>
-    {
-        // Keep JWT claim names ("sub", "role") as-is instead of mapping them to long URIs.
-        options.MapInboundClaims = false;
-        options.TokenValidationParameters = new TokenValidationParameters
-        {
-            ValidateIssuer = true,
-            ValidIssuer = jwt.Issuer,
-            ValidateAudience = true,
-            ValidAudience = jwt.Audience,
-            ValidateIssuerSigningKey = true,
-            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwt.Key)),
-            ValidateLifetime = true,
-            ClockSkew = TimeSpan.FromSeconds(30),
-            NameClaimType = JwtRegisteredClaimNames.Sub,
-            RoleClaimType = AuthClaims.Role
-        };
-    });
-
-builder.Services.AddAuthorizationBuilder()
-    .AddPolicy(AuthClaims.AdminPolicy, policy => policy.RequireRole(nameof(UserRole.Admin)));
+builder.Services.AddControllers();
+builder.Services.AddExceptionHandler<GlobalExceptionHandler>();
+builder.Services.AddProblemDetails();
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(options =>
 {
@@ -74,6 +47,8 @@ builder.Services.AddSwaggerGen(options =>
 });
 
 var app = builder.Build();
+
+app.UseExceptionHandler();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

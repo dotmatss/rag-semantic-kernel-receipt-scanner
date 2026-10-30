@@ -16,11 +16,6 @@ public class AppDbContext : DbContext
 
     public DbSet<RefreshToken> RefreshTokens => Set<RefreshToken>();
 
-    public DbSet<DocumentRecord> Documents => Set<DocumentRecord>();
-
-    public DbSet<DocumentChunkRecord> DocumentChunks =>
-        Set<DocumentChunkRecord>();
-
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         base.OnModelCreating(modelBuilder);
